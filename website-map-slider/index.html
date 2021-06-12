@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick.css" />
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./slick.min.js"></script>
+    <script defer src="./maps.js"></script>
+    <script defer src="./main.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-wraper">
+            <div class="container">
+                <nav class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="">О КОМПАНИИ</a>
+                        </li>
+                        <li>
+                            <a href="">УСЛУГИ</a>
+                        </li>
+                        <li>
+                            <a href="">БЛОГ</a>
+                        </li>
+                        <li>
+                            <a href="">ВАКАНСИИ</a>
+                        </li>
+                        <li>
+                            <a href="">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                    <input class="header-search" type="text" placeholder="Поиск товаров">
+                    <div class="language">
+                        <div class="line"></div>
+                        <a href="">Ru</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="header-wraper-menu">
+            <div class="container">
+                <div class="header-logo">
+                    <img src="./img/logo.png" alt="logo"></div>
+
+                <ul>
+                    <li class="catalog-list-container">
+                        <div class="burger-menu-container">
+                            <img src="./img/burger-menu.png" alt="">
+                        </div>
+                        <a>Каталог</a>
+                    </li>
+                    <li class="header-strip"></li>
+                    <li class="list-container">
+                        <img class="price-icon" src="./img/price-icon.png" alt="">
+                        <a href="">Прайсы</a>
+                    </li>
+                    <li class="header-strip"></li>
+                    <li class="list-container">
+                        <a href="">Сертификаты</a>
+                    </li>
+                    <li class="list-phone">
+                        <a href=""><img src="./img/phone.png" alt=""> +38 (050) 400 07 70</a>
+                    </li>
+                    <li class="list-btn">
+                        <a href="">Обратный звонок</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="container-category hidden ">
+                <ul class="container-category-list ">
+                    <li class="category-item catalog-fitings">
+                        <p>Фитинг латунный </p>
+                        <img src="./img/arrow-ios-forward-outline.png" alt="">
+                    </li>
+                    <li class="category-item catalog-fitings-nikel ">
+                        <p>Фитинг латунный никелированный </p>
+                        <img src="./img/arrow-ios-forward-outline.png" alt="">
+                    </li>
+                    <li class="category-item">
+                        <p>Спецзаказы</p>
+                    </li>
+                </ul>
+                <div class="fitings-category-container hidden">
+                    <h4>Фитинг латунный</h4>
+                    <div class="heading-line line-category"></div>
+                    <div class="list-items-block">
+                        <ul class="list-block-content-1">
+                            <li><a href="">Врезка в бак</a></li>
+                            <li><a href="">Врезка трубная</a></li>
+                            <li><a href="">Заглушка</a></li>
+                            <li><a href="">Крестовина</a></li>
+                            <li><a href="">Муфта</a></li>
+                            <li><a href="">Наконечник-штуцер</a></li>
+                            <li><a href="">Ниппель</a></li>
+                            <li><a href="">Переходник</a></li>
+                            <li><a href="">Разное</a></li>
+                            <li><a href="">Сгон</a></li>
+                        </ul>
+                        <ul class="list-block-content-2">
+                            <li><a href="">Соединение прямое (американка)</a></li>
+                            <li><a href="">Соединение угловое (американка)</a></li>
+                            <li><a href="">Тройник</a></li>
+                            <li><a href="">Тройник соединительный</a></li>
+                            <li><a href="">Трубка соединительная
+                                </a></li>
+                            <li><a href="">Уголок переходной</a></li>
+                            <li><a href="">Уголок проходной
+                                </a></li>
+                            <li><a href="">Уголок соединительный
+                                </a></li>
+                            <li><a href="">Футорка</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="fitings-nikel-category-container hidden">
+                    <h4>Фитинг никелированный</h4>
+                    <div class="heading-line line-category"></div>
+                    <div class="list-items-block">
+                        <ul class="list-block-content-1">
+                            <li><a href="">Врезка в бак</a></li>
+                            <li><a href="">Врезка трубная</a></li>
+                            <li><a href="">Заглушка</a></li>
+                            <li><a href="">Крестовина</a></li>
+                            <li><a href="">Муфта</a></li>
+                            <li><a href="">Наконечник-штуцер</a></li>
+                            <li><a href="">Ниппель</a></li>
+                            <li><a href="">Переходник</a></li>
+                            <li><a href="">Разное</a></li>
+                            <li><a href="">Сгон</a></li>
+                        </ul>
+                        <ul class="list-block-content-2">
+                            <li><a href="">Соединение прямое (американка)</a></li>
+                            <li><a href="">Соединение угловое (американка)</a></li>
+                            <li><a href="">Тройник</a></li>
+                            <li><a href="">Тройник соединительный</a></li>
+                            <li><a href="">Трубка соединительная
+                                </a></li>
+                            <li><a href="">Уголок переходной</a></li>
+                            <li><a href="">Уголок проходной
+                                </a></li>
+                            <li><a href="">Уголок соединительный
+                                </a></li>
+                            <li><a href="">Футорка</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="header-mobile">
+            <div class="container container-header-mobile">
+                <div class="header-logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <div class="header-block-mobile">
+                    <div class="burger-menu-container">
+                        <img src="./img/burger-menu.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/zoom-icon.png" alt="zoom">
+                    </div>
+                    <div class="language">
+                        <a href="">Ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="promo-slider">
+        <div class="slider-desktop">
+            <div class="slider-inner">
+                <img class="slider-img" src="./img/slider-bg.png" alt="slider-img">
+                <img class="slider-img" src="./img/slider-bg.png" alt="slider-img">
+                <img class="slider-img" src="./img/slider-bg.png" alt="slider-img">
+            </div>
+        </div>
+        <div class="slider-mobile">
+            <div class="slider-inner">
+                <img class="slider-img" src="./img/slider-bg-mob.png" alt="slider-img">
+                <img class="slider-img" src="./img/slider-bg-mob.png" alt="slider-img">
+                <img class="slider-img" src="./img/slider-bg-mob.png" alt="slider-img">
+            </div>
+        </div>
+        <div class="container container-mobile">
+            <div class="promo-content">
+                <h2 class="promo-text">ВЫГОДНЫЕ ПРЕДЛОЖЕНИЯ ОТ ПРОИЗВОДИТЕЛЯ!</h2>
+                <div class="promo-btn"><a href="">Оставить заявку</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="promo-menu">
+        <div class="container direction-container">
+            <h3 class="heading-title heading-black">НАША ПРОДУКЦИЯ</h3>
+            <div class="heading-line"></div>
+        </div>
+        <div class="container wrap">
+
+            <div class="block-fitings"><a class="menu-title" href="">Фитинги<br>
+                    латунные</a></div>
+            <div class="block-fitings-nikel"><a class="menu-title" href="">Фитинги латунные
+                    никелированные</a></div>
+            <div class="block-order"><a class="menu-title" href="">Спецзаказы</a>
+
+            </div>
+        </div>
+    </section>
+    <section class="direction">
+        <div class="container direction-container">
+            <h3 class="heading-title title">НАПРАВЛЕНИЯ С КОТОРЫМИ МЫ РАБОТАЕМ</h3>
+            <div class="heading-line"></div>
+            <div class="dicection-content">
+                <div class="direction-block">
+                    <img src="./img/dir-icon-1.png" alt="icon">
+                    <div class="direction-title-block">
+                        <div class="direction-title-num">01</div>
+                        <p class="direction-title">Торговые компании</p>
+                    </div>
+                </div>
+                <div class="direction-block">
+                    <img src="./img/dir-icon-2.png" alt="icon">
+                    <div class="direction-title-block">
+                        <div class="direction-title-num">02</div>
+                        <p class="direction-title">Промышленные предприятия
+                        </p>
+                    </div>
+                </div>
+                <div class="direction-block">
+                    <img src="./img/dir-icon-3.png" alt="icon">
+                    <div class="direction-title-block">
+                        <div class="direction-title-num">03</div>
+                        <p class="direction-title">Производители пожарного оборудования</p>
+                    </div>
+                </div>
+                <div class="direction-block">
+                    <img src="./img/dir-icon-4.png" alt="icon">
+                    <div class="direction-title-block">
+                        <div class="direction-title-num">04</div>
+                        <p class="direction-title">Агропромышленный комплекс</p>
+                    </div>
+                </div>
+                <div class="direction-block">
+                    <img src="./img/dir-icon-5.png" alt="icon">
+                    <div class="direction-title-block">
+                        <div class="direction-title-num">05</div>
+                        <p class="direction-title">Строительно -монтажные организации</p>
+                    </div>
+                </div>
+                <div class="direction-block">
+                    <img src="./img/dir-icon-6.png" alt="icon">
+                    <div class="direction-title-block">
+                        <div class="direction-title-num">06</div>
+                        <p class="direction-title">Украинская железная дорога</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="trademark">
+        <div class="container direction-container">
+            <h3 class="heading-title heading-black">ТМ LEXLINE - КАЧЕСТВО, КОТОРОМУ ДОВЕРЯЮТ</h3>
+            <div class="heading-line"></div>
+
+            <div class="trademark-block">
+                <div class="trademark-content-block">
+                    <div class="trademark-text-block">
+                        <p> <b>ООО «Шлях»</b> - мощное современное предприятие, специализирующееся на изготовлении латунной сантехнической арматуры с полным циклом производства. В 2003 году создано с целью выпуска качественного фитинга ТМ LEXLINE , отвечающего
+                            высоким стандартам . Основным направлением деятельности является серийная металлообработка , а так же изготовление деталей по индивидуальным чертежам заказчика.</p>
+                    </div>
+                    <div class="trademark-img-1"><img src="./img/img-1.png" alt=""></div>
+                </div>
+
+                <div class="trademark-content-block reverse">
+                    <div class="trademark-img-2"><img src="./img/img-2.png" alt=""></div>
+                    <div class="trademark-text-block">
+                        <p><b>Основная производственная структура предприятия: </b> <br> - Конструкторно-технический отдел; <br> - Инструментальный цех; <br> - Литейный цех ; <br> - Цех горячей штамповки; <br> - Участок механической обработки металла; <br>                            - Цех автоматических и полуавтоматических линий и многофункциональных станков и установок;
+                            <br> - ОТК; <br> - Отдел сборки и упаковки деталей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container direction-container">
+            <h3 class="heading-title heading-black">ВИДЕО ПРОЦЕССА ПРОИЗВОДСТВА</h3>
+            <div class="heading-line"></div>
+            <iframe class="video-block" src="https://www.youtube.com/embed/cD5LyojmPRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container container-advantages">
+            <div class="advantages-title-block">
+                <div>
+                    <h3 class="heading-title">НАШИ ПРЕИМУЩЕСТВА</h3>
+                    <div class="heading-line"></div>
+                </div>
+                <p>Изготовление качественного фитинга с высокими стандартами </p>
+            </div>
+            <div class="advantages-main-block">
+                <div class="advantages-bg"></div>
+                <div class="advantages-content-block">
+                    <div>
+                        <p class="advantages-num">170</p>
+                        <p class="advantages-text">Квалифицированных специалистов</p>
+                    </div>
+                    <div>
+                        <p class="advantages-num">600 +</p>
+                        <p class="advantages-text"> Крупных клиентов</p>
+                    </div>
+                    <div>
+                        <p class="advantages-num last text-20">20</p>
+                        <p class="advantages-text"> Лет опыт работы в отрасли производства и металлообработки</p>
+                    </div>
+                </div>
+                <div class="advantages-img-block"> <img src="./img/image-adv.png" alt=""> </div>
+                <div>
+                    <div>
+                        <p class="advantages-num">6</p>
+                        <p class="advantages-text">Миллионов фитингов в год</p>
+                    </div>
+                    <div>
+                        <p class="advantages-num">550</p>
+                        <p class="advantages-text">Тонн продукции в год</p>
+                    </div>
+                    <div>
+                        <p class="advantages-num last">380</p>
+                        <p class="advantages-text">Надежных поставщиков</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="certificates">
+        <div class="container container-certificates">
+            <h3 class="heading-title heading-black">СЕРТИФИКАТЫ</h3>
+            <div class="heading-line"></div>
+            <div class="certificates-block">
+                <img class="certificates-img" src="./img/cert-1.png" alt="certificat">
+                <img class="certificates-img certificates-img-mob" src="./img/cert-2.png" alt="certificat">
+                <img class="certificates-img certificates-img-mob" src="./img/cert-3.png" alt="certificat">
+                <div class="certificates-btn">
+                    <img src="./img/frame-cert.png" alt="frame">
+                    <p>СМОТРЕТЬ ВСЕ</p>
+                </div>
+            </div>
+            <div class="form">
+                <div class="form-container">
+                    <h3 class="heading-title heading-title-form ">СВЯЖИТЕСЬ С НАМИ</h3>
+                    <p>Обращайтесь за указанными телефонами и мы обязательно Вас проконсультируем. Всегда рады помочь!
+                    </p>
+                    <form action="" method="post">
+                        <input class="form-name" type="text" name="" placeholder="Ваше имя">
+                        <input class="form-phone" type="number" name="" placeholder="Ваш телефон">
+                        <input class="form-email" type="email" name="" placeholder="Ваш e-mail">
+                        <input class="form-message" type="text" name="" placeholder="Ваше сообщение">
+                        <div class="form-submit">
+                            <input class="form-submit-btn" type="submit" value="ОТПРАВИТЬ">
+                            <div class="form-checkbox-block">
+                                <input type="checkbox" name="checkbox" id="">
+                                <label class="form-checkbox-text" for="checkbox">Я согласен с обработкой персональных
+                                    данных</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="map">
+
+
+        </div>
+        <div class="footer-container">
+            <div class="container container-footer-mobile">
+                <div class="footer-block-1">
+                    <img class="footer-img" src="./img/logo.png" alt="logo">
+                    <p class="footer-small-text">Профессионалы выбирают ТМ Lexline</p>
+                    <div class="footer-retail-desktop">
+                        <p class="footer-text">Для розничной торговли:</p>
+                        <a href="https://rozetka.com.ua/ua/seller/aqvagost/goods/"><img src="./img/rozetka.png" alt="rozetka"></a>
+                        <a class="prom-icon" href="https://tovshlyah.com.ua/ "><img src="./img/prom.png" alt="prom"></a><br>
+                        <a href="https://shlyah-lexline.com.ua/ "><img class="zakupka-icon" src="./img/zakupka.png" alt="zakupka"></a>
+                    </div>
+                </div>
+                <div class="footer-block-2">
+                    <ul>
+                        <li> <a href="">О компании</a> </li>
+                        <li> <a href="">Услуги</a> </li>
+                        <li> <a href="">Прайсы</a> </li>
+                        <li> <a href="">Сертификаты</a> </li>
+                        <li> <a href="">Вакансии</a> </li>
+                        <li> <a href="">Блог</a> </li>
+                        <li> <a href="">Контакты</a> </li>
+                    </ul>
+                    <div class="footer-social-desktop">
+                        <a href=""><img src="./img/instagram-icon.png" alt="instagram-icon"></a>
+                        <a href=""><img src="./img/Facebook-icon.png" alt="facebook"></a>
+                    </div>
+                </div>
+                <div class="line-footer-mobile"></div>
+                <div class="footer-block-3">
+                    <ul>
+                        <li class="footer-block-tittle">Производство</li>
+                        <li><img src="./img/location-icon.png" alt="location-icon">51600, г. Верхнеднепровск <br>ул. Титова 37</li>
+                        <li><img src="./img/fa_phone-square.png" alt="phone">+38 (056) 583 26 96</li>
+                        <li class="footer-time-work-1"><img src="./img/bx_bxs-time.png" alt="time">Время работы:
+                            <br>Пн-Пт 8:00 - 17:00 <br>Сб-Вс: Выходной
+                        </li>
+                    </ul>
+                </div>
+                <div class="line-footer-mobile"></div>
+                <div class="footer-block-4">
+                    <ul>
+                        <li class="footer-block-tittle">Склад</li>
+                        <li><img src="./img/location-icon.png" alt="location-icon">49057, г. Днепр <br>пр. Богдана Хмельницкого 171</li>
+                        <li><img src="./img/fa_phone-square.png" alt="phone">+38 (068) 787 90 90</li>
+                        <li><img src="./img/fa_phone-square.png" alt="phone">+38 (050) 400 07 70</li>
+                        <li><img src="./img/fluent_mail.png" alt="mail">e-mail: shlyah.lexline@gmail.com</li>
+                        <li class="footer-time-work-2"><img src="./img/bx_bxs-time.png" alt="time">Время работы:
+                            <br>Пн-Пт 9:00 - 18:00 <br>Сб-Вс: Выходной
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-retail-mobile">
+                    <p class="footer-text">Для розничной торговли:</p>
+                    <a href="https://rozetka.com.ua/ua/seller/aqvagost/goods/"><img src="./img/rozetka.png" alt="rozetka"></a>
+                    <a class="prom-icon" href="https://tovshlyah.com.ua/ "><img src="./img/prom.png" alt="prom"></a><br>
+                    <a href="https://shlyah-lexline.com.ua/ "><img class="zakupka-icon" src="./img/zakupka.png" alt="zakupka"></a>
+                </div>
+                <div class="footer-social-mobile">
+                    <a class="footer-inst-icon" href=""><img src="./img/instagram-icon.png" alt="instagram-icon"></a>
+                    <a href=""><img src="./img/Facebook-icon.png" alt="facebook"></a>
+                </div>
+
+            </div>
+            <div class="footer-copyright">
+                <div class="container container-copyright">
+                    <div class="copyright-text">ООО “Шлях” © 2003-2021</div>
+                    <div class="copyright-text-block">
+                        <p class="copyright-text">Разработка и продвижение в интернет </p> <img src="./img/logo_webpr_white 1.png" alt="webpr">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKS9b1NtiNtwWinp99qF6djVpDtFhcxc4&callback=initMap"></script>
+
+</html>

@@ -1,0 +1,2605 @@
+.v-align {
+    display: table-cell;
+    vertical-align: middle
+}
+#Price01{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+
+#Price02{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+#Price03{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+
+.bottom-align {
+    display: table-cell;
+    vertical-align: bottom
+}
+
+.noselect {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none
+}
+
+.Del-Calc-in {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15)
+}
+
+.Del-Calc-in-2 {
+    display: table;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15)
+}
+
+.Del-Calc-line-1 {
+    width: 100%;
+    height: 100px;
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-1.png) center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 99
+}
+
+.Del-Calc-line-2 {
+    width: 100%;
+    height: 100px;
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-2.png) center no-repeat;
+    background-size: 100% 100%;
+    margin-top: -100px;
+    position: relative;
+    z-index: 999
+}
+
+.Del-Calc-line-3 {
+    width: 100%;
+    height: 100px;
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-31.png) center no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 99
+}
+
+.Del-Calc-line-4 {
+    width: 100%;
+    height: 100px;
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-4.png) center no-repeat;
+    background-size: 100% 100%;
+    margin-top: -100px;
+    position: relative;
+    z-index: 999
+}
+
+.Del-Calc-subtitle {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px
+}
+
+.Del-Calc-subtitle span {
+    width: 47px;
+    height: 47px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #4bb8ff;
+    font: 25px arial;
+    line-height: 47px;
+    font-weight: bolder;
+    font-style: normal;
+    border-radius: 30px;
+    border-bottom: 3px dotted #4bb8ff;
+    border-top: 0 dotted #4bb8ff;
+    text-align: center;
+    text-indent: 5px
+}
+
+.Del-Calc-subtitle span em {
+    font: 15px arial;
+    font-weight: normal;
+    color: #9acffd;
+    position: relative;
+    bottom: 3px;
+    letter-spacing: 1px
+}
+
+.Del-Calc-subtitle p {
+    width: calc(100% - 70px);
+    height: 50px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: table;
+    font: 15px arial;
+    color: #4bb8ff;
+    line-height: 1em;
+    text-transform: uppercase
+}
+
+.Del-Calc-content {
+    width: calc(100% - 70px);
+    height: auto;
+    margin: 0 0 35px 70px
+}
+
+.Del-Calc-content:last-child {
+    margin: 0 0 0 70px
+}
+
+.Del-Calc-select {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: table;
+    border-bottom: 1px solid rgba(53, 159, 251, 0.25);
+    margin-bottom: 15px;
+    font: 13px arial
+}
+
+.Del-Calc-select p {
+    float: left;
+    display: block;
+    line-height: 36px;
+    margin: 0;
+    padding: 0
+}
+
+select#option-1,
+select#option-2 {
+    -webkit-border-radius: 2px;
+    border: 0 solid #AAA;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70px;
+    height: 26px;
+    float: right;
+    font: 16px arial;
+    font-weight: bolder;
+    padding: 1px 0 0 0;
+    color: #000;
+    background: #fff;
+    margin-top: 5px
+}
+
+.Del-Calc-radio {
+    width: calc(100% + 50px);
+    max-width: 430px;
+    height: auto;
+    display: table;
+    margin-top: 20px;
+    position: relative;
+    right: 45px
+}
+
+.Del-Calc-radio-01 {
+    width: 45px;
+    height: 50px;
+    float: left;
+    display: table
+}
+
+.Del-Calc-radio-02 {
+    width: calc(100% - 120px);
+    height: auto;
+    float: left;
+    display: table
+}
+
+.Del-Calc-radio-03 {
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    font: 15px arial;
+    color: red;
+    font-weight: bolder;
+    float: left;
+    display: table
+}
+
+.Del-Calc-radio-04 {
+    width: calc(100% - 45px);
+    height: auto;
+    float: right;
+    display: table;
+    margin-bottom: 10px;
+    font: 11px arial;
+    opacity: .7
+}
+
+.Del-Calc-01-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: #000;
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    right: 20px
+}
+
+.Del-Calc-radio input[type=radio]+label {
+    background: #fff;
+    color: #000;
+    width: calc(100% - 40px);
+    height: 40px;
+    display: table;
+    transition: .3s;
+    text-transform: uppercase;
+    font: 12px arial;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: left;
+    margin-top: 5px;
+    padding: 0 20px
+}
+
+.Del-Calc-radio input+label:hover {
+    background: rgba(75, 184, 255, 0.2);
+    color: #000
+}
+
+.Del-Calc-radio input+label:active {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-radio input[type=radio]:checked+label {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-radio input {
+    visibility: visible;
+    height: 43px;
+    position: absolute;
+    right: 85px
+}
+
+.hover-01 {
+    width: auto;
+    height: auto;
+    display: none;
+    position: absolute;
+    z-index: 9;
+    text-align: left;
+    color: #fff;
+    font: 12px arial
+}
+
+.hover-01 b {
+    background: red;
+    padding: 10px 20px;
+    border-radius: 3px;
+    position: relative;
+    left: 55px;
+    top: 45px
+}
+
+#DelRol-i1 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/icon-1.png) center no-repeat;
+    background-size: 115%
+}
+
+#DelRol-i2 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/icon-2.png) center no-repeat;
+    background-size: 115%
+}
+#DelRol-i3 {
+    background: url(./img/icon-3.png) center no-repeat;
+    background-size: 115%
+}
+
+
+.Del-Calc-01 {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 770px;
+    padding-top: 0;
+    z-index: 9
+}
+
+.Del-Calc-01-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 770px
+}
+
+.Del-Calc-01-left {
+    width: 50%;
+    height: 100%;
+    padding-top: 0;
+    background: linear-gradient(135deg, #35bfff, #3583ff);
+    float: left;
+    display: table
+}
+
+.Del-Calc-01-left-img {
+    width: 100%;
+    height: 100%;
+    background: url(./img/bckground.png)center no-repeat;
+    background-size: cover;
+    display: table
+}
+
+.Del-Calc-01-left-in {
+    width: calc(90% - 100px);
+    height: auto;
+    display: table;
+    padding: 100px 50px 50px 50px;
+    float: right;
+    max-width: 500px
+}
+
+.Del-Calc-01-left h2 {
+    margin: 0;
+    padding: 0;
+    font: 50px arial;
+    text-transform: uppercase;
+    max-width: 100px;
+    line-height: 1em
+}
+
+.Del-Calc-01-left p {
+    margin: 0;
+    padding: 0;
+    font: 13px arial;
+    line-height: 18px;
+    padding-top: 20px
+}
+
+.Del-Calc-01-right {
+    width: 50%;
+    height: calc(100% - 50px);
+    float: left;
+    display: table;
+    padding-top: 50px;
+    background: linear-gradient(135deg, #fff, #e0eaff)
+}
+
+.Del-Calc-01-right-in {
+    width: calc(100% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px
+}
+
+.Del-Calc-02 {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 680px;
+    z-index: 9
+}
+
+.Del-Calc-02-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 680px
+}
+
+.Del-Calc-02-all {
+    width: calc(100% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px
+}
+
+.Del-Calc-02-block {
+    width: calc(25% - 20px);
+    height: auto;
+    float: left;
+    margin: 20px 20px 0 0
+}
+
+.Del-Calc-02-block p {
+    margin-bottom: 10px;
+    font: 11px arial;
+    opacity: .7
+}
+
+.Del-Calc-02-price {
+    font: 15px arial;
+    color: red;
+    font-weight: bolder
+}
+
+.Del-Calc-02-block input[type=radio]+label {
+    background: #f1f5ff;
+    color: #000;
+    width: auto;
+    height: auto;
+    display: table;
+    transition: .3s;
+    text-transform: uppercase;
+    font: 12px arial;
+    line-height: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px 40px 10px 15px;
+    margin-top: -20px
+}
+
+.Del-Calc-02-block input+label:hover {
+    background: rgba(75, 184, 255, 0.2);
+    color: #000
+}
+
+.Del-Calc-02-block input+label:active {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-02-block input[type=radio]:checked+label {
+    background: #4bb8ff;
+    color: #fff
+}
+
+#r11 {
+    position: relative;
+    left: 70px;
+    top: 6px
+}
+
+#r12 {
+    position: relative;
+    left: 88px;
+    top: 6px
+}
+
+#r13 {
+    position: relative;
+    left: 69px;
+    top: 6px
+}
+
+#r14 {
+    position: relative;
+    left: 67px;
+    top: 6px
+}
+
+#r15 {
+    position: relative;
+    left: 175px;
+    top: 6px
+}
+
+#r16 {
+    position: relative;
+    left: 205px;
+    top: 6px
+}
+
+#r17 {
+    position: relative;
+    left: 160px;
+    top: 6px
+}
+
+#r18 {
+    position: relative;
+    left: 168px;
+    top: 6px
+}
+
+.Del-Calc-02-img {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 10px;
+    border-right: 1px dashed #4bb8ff
+}
+
+.hover-02 {
+    width: auto;
+    height: 380px;
+    display: none;
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    color: #fff;
+    font: 12px arial
+}
+
+.hover-02 b {
+    background: red;
+    padding: 10px 15px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 120px
+}
+
+#DelRol-lamel-1 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l1.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-2 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l2.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-3 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l3.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-4 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l4.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-5 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l5.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-6 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l6.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-7 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l7.jpg) top left repeat-x;
+    background-size: contain
+}
+
+#DelRol-lamel-8 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/l8.gif) top left repeat-x;
+    background-size: contain
+}
+
+.Del-Calc-03 {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 750px;
+    z-index: 9
+}
+
+.Del-Calc-03-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 750px
+}
+
+.Del-Calc-03-all {
+    width: calc(100% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px;
+    border-top: 1px dashed rgba(75, 184, 255, 0.2)
+}
+
+.Del-Calc-03-block {
+    width: calc(25% - 20px);
+    height: auto;
+    float: left;
+    margin: 20px 100px 0 0
+}
+
+.Del-Calc-03-block p {
+    margin-bottom: 10px;
+    font: 12.5px arial;
+    opacity: .7
+}
+
+.Del-Calc-03-price {
+    font: 15px arial;
+    color: red;
+    font-weight: bolder
+}
+
+.Del-Calc-03-price-mini {
+    font: 14px arial;
+    line-height: 1em;
+    color: #4bb8ff;
+    max-width: 180px
+}
+
+.Del-Calc-03-block input[type=radio]+label {
+    background: #f1f5ff;
+    color: #000;
+    width: auto;
+    height: auto;
+    display: table;
+    transition: .3s;
+    text-transform: uppercase;
+    font: 12px arial;
+    line-height: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px 35px 10px 15px;
+    margin-top: -20px;
+    letter-spacing: -.4px
+}
+
+.Del-Calc-03-block input[type=radio]+label a {
+    color: red;
+    transition: .3s
+}
+
+.Del-Calc-03-block input[type=radio]+label a:hover {
+    color: #333;
+    transition: .3s;
+    cursor: pointer
+}
+
+.Del-Calc-03-block input+label:hover {
+    background: rgba(75, 184, 255, 0.2);
+    color: #000
+}
+
+.Del-Calc-03-block input+label:active {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-03-block input[type=radio]:checked+label {
+    background: #4bb8ff;
+    color: #fff
+}
+
+#r01 {
+    position: relative;
+    left: 68px;
+    top: 6px
+}
+
+#r02 {
+    position: relative;
+    left: 68px;
+    top: 6px
+}
+
+#r03 {
+    position: relative;
+    left: 110px;
+    top: 6px
+}
+
+#r04 {
+    position: relative;
+    left: 75px;
+    top: 6px
+}
+
+#r05 {
+    position: relative;
+    left: 85px;
+    top: 6px
+}
+
+#r06 {
+    position: relative;
+    left: 80px;
+    top: 6px
+}
+
+.Del-Calc-03-img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: -40px;
+    margin-left: 40px;
+    background: #000
+}
+
+#DelRol-stoika-1 {
+    background: url(./img/white.png) right no-repeat;
+    background-size: contain
+}
+
+#DelRol-stoika-2 {
+    background: url(./img/gray.png) right no-repeat;
+    background-size: contain
+}
+
+#DelRol-stoika-3 {
+    background: url(./img/dark-gray.png) right no-repeat;
+    background-size: contain
+}
+
+#DelRol-stoika-4 {
+    background: url(./img/black.png) right no-repeat;
+    background-size: contain
+}
+
+#DelRol-stoika-5 {
+    background: url(./img/beige.png) right no-repeat;
+    background-size: contain
+}
+
+#DelRol-stoika-6 {
+    background: url(./img/green.png) right no-repeat;
+    background-size: contain
+}
+
+.Del-Calc-04 {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 820px;
+    z-index: 9
+}
+
+.Del-Calc-04-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 820px
+}
+
+.Del-Calc-04-all {
+    width: calc(100% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px;
+    border-top: 1px dashed rgba(75, 184, 255, 0.2)
+}
+
+.Del-Calc-04-block {
+    width: calc(25% - 20px);
+    height: auto;
+    float: left;
+    margin: 20px 20px 0 0
+}
+
+.Del-Calc-04-block p {
+    margin-bottom: 10px;
+    font: 11px arial;
+    opacity: .7
+}
+
+.Del-Calc-04-price {
+    font: 15px arial;
+    color: red;
+    font-weight: bolder
+}
+
+.Del-Calc-04-price-mini {
+    font: 13px arial;
+    line-height: 1em;
+    color: #4bb8ff;
+    max-width: 180px
+}
+
+.Del-Calc-04-block input[type=radio]+label {
+    background: #f1f5ff;
+    color: #000;
+    width: auto;
+    height: auto;
+    display: table;
+    transition: .3s;
+    text-transform: uppercase;
+    font: 12px arial;
+    line-height: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px 35px 10px 15px;
+    margin-top: -20px;
+    letter-spacing: -.4px
+}
+
+.Del-Calc-04-block input[type=radio]+label a {
+    color: red;
+    transition: .3s
+}
+
+.Del-Calc-04-block input[type=radio]+label a:hover {
+    color: #333;
+    transition: .3s;
+    cursor: pointer
+}
+
+.Del-Calc-04-block input+label:hover {
+    background: rgba(75, 184, 255, 0.2);
+    color: #000
+}
+
+.Del-Calc-04-block input+label:active {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-04-block input[type=radio]:checked+label {
+    background: #4bb8ff;
+    color: #fff
+}
+
+#r001 {
+    position: relative;
+    left: 80px;
+    top: 6px
+}
+
+#r002 {
+    position: relative;
+    left: 93px;
+    top: 6px
+}
+
+#r003 {
+    position: relative;
+    left: 75px;
+    top: 6px
+}
+
+#r004 {
+    position: relative;
+    left: 72px;
+    top: 6px
+}
+
+#r005 {
+    position: relative;
+    left: 100px;
+    top: 6px
+}
+
+#r006 {
+    position: relative;
+    left: 67px;
+    top: 6px
+}
+
+#r007 {
+    position: relative;
+    left: 210px;
+    top: 6px
+}
+
+.Del-Calc-04-img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    background: #000
+}
+
+
+.Del-Calc-05 {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 420px;
+    z-index: 9
+}
+
+.Del-Calc-05-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 420px
+}
+
+.Del-Calc-05-all {
+    width: calc(100% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px;
+    border-top: 1px dashed rgba(75, 184, 255, 0.2)
+}
+
+.Del-Calc-05-block {
+    width: calc(33% - 20px);
+    height: auto;
+    float: left;
+    margin: 10px 20px 0 0
+}
+
+.Del-Calc-05-block p {
+    margin-bottom: 10px;
+    font: 11px arial;
+    opacity: .7
+}
+
+.Del-Calc-05-price {
+    font: 15px arial;
+    color: red;
+    font-weight: bolder
+}
+
+.Del-Calc-05-block input[type=radio]+label {
+    background: #f1f5ff;
+    color: #000;
+    width: auto;
+    height: auto;
+    display: table;
+    transition: .3s;
+    text-transform: uppercase;
+    font: 12px arial;
+    line-height: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px 40px 10px 15px;
+    margin-top: -20px
+}
+
+.Del-Calc-05-block input+label:hover {
+    background: rgba(75, 184, 255, 0.2);
+    color: #000
+}
+
+.Del-Calc-05-block input+label:active {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-05-block input[type=radio]:checked+label {
+    background: #4bb8ff;
+    color: #fff
+}
+
+#r8 {
+    position: relative;
+    left: 95px;
+    top: 6px
+}
+
+#r9 {
+    position: relative;
+    left: 125px;
+    top: 6px
+}
+
+#r10 {
+    position: relative;
+    left: 100px;
+    top: 6px
+}
+
+.Del-Calc-05-img {
+    width: calc(100% - 0px);
+    height: 140px;
+    background: #fff;
+    border-radius: 3px
+}
+
+.Del-Calc-06 {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 330px;
+    z-index: 9
+}
+
+.Del-Calc-06-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 280px
+}
+
+.Del-Calc-06-all {
+    width: calc(100% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px;
+    border-top: 1px dashed rgba(75, 184, 255, 0.2)
+}
+
+.Del-Calc-06-block {
+    width: calc(25% - 20px);
+    height: auto;
+    float: left;
+    margin: 20px 20px 0 0
+}
+
+.Del-Calc-06-block p {
+    margin-bottom: 10px;
+    font: 11px arial;
+    opacity: .7
+}
+
+.Del-Calc-06-price {
+    font: 15px arial;
+    color: red;
+    font-weight: bolder
+}
+
+.Del-Calc-06-block input[type=checkbox]+label {
+    background: #f1f5ff;
+    color: #000;
+    width: 80%;
+    height: 30px;
+    display: table;
+    transition: .3s;
+    text-transform: uppercase;
+    font: 12px arial;
+    line-height: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px 30px 10px 10px;
+    margin-top: -20px
+}
+
+.Del-Calc-06-block input+label:hover {
+    background: rgba(75, 184, 255, 0.2);
+    color: #000
+}
+
+.Del-Calc-06-block input+label:active {
+    background: #4bb8ff;
+    color: #fff
+}
+
+.Del-Calc-06-block input[type=checkbox]:checked+label {
+    background: #4bb8ff;
+    color: #fff
+}
+
+#cb1 {
+    position: relative;
+    left: 195px;
+    top: 12px
+}
+
+#cb2 {
+    position: relative;
+    left: 195px;
+    top: 12px
+}
+
+
+
+
+.Del-Calc-FIN {
+    position: absolute;
+    left: 0;
+    display: table;
+    width: 100%;
+    height: 450px;
+    z-index: 9
+}
+
+.Del-Calc-FIN-in {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 450px
+}
+
+.Del-Calc-FIN-left {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #3583ff, #35bfff);
+    color: #fff;
+    float: left;
+    display: table
+}
+
+.Del-Calc-FIN-left-in {
+    width: calc(90% - 100px);
+    height: auto;
+    display: table;
+    padding: 50px;
+    float: none;
+    margin: auto;
+    max-width: 600px
+}
+
+.Del-Calc-FIN-left-in h3 {
+    margin: 0;
+    padding: 0 0 15px;
+    font: 25px arial;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.Del-Calc-FIN-left-in p {
+    margin: 0;
+    padding: 10px 0 25px;
+    font: 12px arial;
+    line-height: 15px;
+    color: #fff
+}
+
+.Del-Calc-FIN-left-in a {
+    position: relative;
+    z-index: 9;
+    transition: .3s;
+    color: #000
+}
+
+.Del-Calc-FIN-left-in a:hover {
+    transition: .3s;
+    color: red
+}
+
+.Del-Calc-FIN-block-title {
+    width: 56%;
+    height: 110px;
+    float: left
+}
+
+.Del-Calc-FIN-block-all {
+    width: 44%;
+    height: 70px;
+    float: right
+}
+
+.Del-Calc-FIN-1 {
+    width: 100%;
+    height: 50px
+}
+
+.Del-Calc-FIN-price {
+    width: 100%;
+    height: 40px;
+    font: 20px arial;
+    color: red;
+    float: left
+}
+
+.Del-Calc-FIN-price input {
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    font: 20px arial;
+    font-weight: bold;
+    color: red
+}
+
+.Del-Calc-FIN-price font {
+    position: relative;
+    right: 25px;
+    top: 1px;
+    font-weight: bold
+}
+
+#DelRol-k1 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/krepej-1.png) center no-repeat;
+    background-size: cover
+}
+
+#DelRol-k2 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/krepej-2.png) center no-repeat;
+    background-size: cover
+}
+
+#DelRol-k3 {
+    background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/krepej-3.png) center no-repeat;
+    background-size: cover
+}
+
+@media screen and (min-width:100px) and (max-width:1200px) {
+    .Del-Calc-in-2 {
+        display: table;
+        width: 100%;
+        max-width: 1000px;
+        height: 100%;
+        margin: auto;
+        background: #fff;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.15)
+    }
+
+    .Del-Calc-line-1 {
+        width: 100%;
+        height: 70px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-1.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: -70px;
+        position: relative;
+        z-index: 99
+    }
+
+    .Del-Calc-line-2 {
+        width: 100%;
+        height: 70px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-2.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-top: -70px;
+        position: relative;
+        z-index: 999
+    }
+
+    .Del-Calc-line-3 {
+        width: 100%;
+        height: 70px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-31.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: -70px;
+        position: relative;
+        z-index: 99
+    }
+
+    .Del-Calc-line-4 {
+        width: 100%;
+        height: 70px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-4.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-top: -70px;
+        position: relative;
+        z-index: 999
+    }
+
+    .Del-Calc-content {
+        width: calc(100% - 0px);
+        height: auto;
+        margin: 0
+    }
+
+    .Del-Calc-content:last-child {
+        margin: 0
+    }
+
+    .Del-Calc-select {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: table;
+        border-bottom: 1px solid rgba(53, 159, 251, 0.25);
+        margin-bottom: 15px;
+        font: 13px arial;
+        margin-left: 70px
+    }
+
+    select#option-1,
+    select#option-2 {
+        -webkit-border-radius: 2px;
+        border: 0 solid #AAA;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70px;
+        height: 26px;
+        float: right;
+        font: 16px arial;
+        font-weight: bolder;
+        padding: 1px 0 0 0;
+        color: #000;
+        background: #fff;
+        margin-top: 5px
+    }
+
+    .Del-Calc-radio {
+        width: calc(100% + 50px);
+        max-width: 430px;
+        height: auto;
+        display: table;
+        margin-top: 20px;
+        position: relative;
+        right: 45px;
+        margin-left: 70px
+    }
+
+    .Del-Calc-01 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 690px;
+        padding-top: 0;
+        z-index: 9
+    }
+
+    .Del-Calc-01-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 690px
+    }
+
+    .Del-Calc-01-left-in {
+        width: calc(90% - 100px);
+        height: auto;
+        display: table;
+        padding: 100px 50px 50px 50px;
+        float: right;
+        max-width: 450px
+    }
+
+    .Del-Calc-01-right {
+        width: 50%;
+        height: calc(100% - 20px);
+        float: left;
+        display: table;
+        padding-top: 20px;
+        background: linear-gradient(135deg, #fff, #e0eaff)
+    }
+
+    .Del-Calc-02 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 650px;
+        z-index: 9
+    }
+
+    .Del-Calc-02-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 650px
+    }
+
+    .Del-Calc-02-all {
+        width: calc(100% - 100px);
+        height: auto;
+        display: table;
+        padding: 50px
+    }
+
+    .Del-Calc-02-block {
+        width: calc(25% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 10px 0 0
+    }
+
+    .Del-Calc-02-block p {
+        margin-bottom: 10px;
+        font: 11px arial;
+        opacity: .7
+    }
+
+    .Del-Calc-02-price {
+        font: 15px arial;
+        color: red;
+        font-weight: bolder
+    }
+
+    .Del-Calc-02-block input[type=radio]+label {
+        background: #f1f5ff;
+        color: #000;
+        width: auto;
+        height: auto;
+        display: table;
+        transition: .3s;
+        text-transform: uppercase;
+        font: 12px arial;
+        line-height: 15px;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: left;
+        margin-bottom: 10px;
+        padding: 10px 30px 10px 10px;
+        margin-top: -20px;
+        letter-spacing: -.4px
+    }
+
+    .Del-Calc-02-block input+label:hover {
+        background: rgba(75, 184, 255, 0.2);
+        color: #000
+    }
+
+    .Del-Calc-02-block input+label:active {
+        background: #4bb8ff;
+        color: #fff
+    }
+
+    .Del-Calc-02-block input[type=radio]:checked+label {
+        background: #4bb8ff;
+        color: #fff
+    }
+
+    #r11 {
+        position: relative;
+        left: 60px;
+        top: 6px
+    }
+
+    #r12 {
+        position: relative;
+        left: 78px;
+        top: 6px
+    }
+
+    #r13 {
+        position: relative;
+        left: 59px;
+        top: 6px
+    }
+
+    #r14 {
+        position: relative;
+        left: 57px;
+        top: 6px
+    }
+
+    #r15 {
+        position: relative;
+        left: 158px;
+        top: 6px
+    }
+
+    #r16 {
+        position: relative;
+        left: 180px;
+        top: 6px
+    }
+
+    #r17 {
+        position: relative;
+        left: 150px;
+        top: 6px
+    }
+
+    #r18 {
+        position: relative;
+        left: 153px;
+        top: 6px
+    }
+
+    .Del-Calc-03 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1050px;
+        z-index: 9;
+    }
+
+    .Del-Calc-03-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1050px;
+    }
+
+    .Del-Calc-05 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 380px;
+        z-index: 9;
+    }
+
+    .Del-Calc-05-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 380px;
+    }
+
+    .hover-02 {
+        width: auto;
+        height: 380px;
+        display: none;
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        color: #fff;
+        font: 12px arial
+    }
+
+    .hover-02 b {
+        background: red;
+        padding: 10px 10px;
+        border-radius: 3px;
+        position: relative;
+        bottom: 120px
+    }
+
+    #r01 {
+        position: relative;
+        left: 68px;
+        top: 6px
+    }
+
+    #r02 {
+        position: relative;
+        left: 68px;
+        top: 6px
+    }
+
+    #r03 {
+        position: relative;
+        left: 110px;
+        top: 7px;
+    }
+
+    #r001 {
+        position: relative;
+        left: 80px;
+        top: 6px
+    }
+
+    #r002 {
+        position: relative;
+        left: 93px;
+        top: 6px
+    }
+
+    #r003 {
+        position: relative;
+        left: 75px;
+        top: 6px
+    }
+
+    #r004 {
+        position: relative;
+        left: 72px;
+        top: 6px
+    }
+
+    #r005 {
+        position: relative;
+        left: 100px;
+        top: 6px
+    }
+
+    #r006 {
+        position: relative;
+        left: 67px;
+        top: 6px
+    }
+
+    #r007 {
+        position: relative;
+        left: 180px;
+        top: 13px
+    }
+
+    .Del-Calc-06-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 310px
+    }
+
+    .Del-Calc-06-block {
+        width: calc(25% - 10px);
+        height: auto;
+        float: left;
+        margin: 20px 10px 0 0
+    }
+
+    .Del-Calc-06-block input[type=checkbox]+label {
+        background: #f1f5ff;
+        color: #000;
+        width: auto;
+        height: auto;
+        display: table;
+        transition: .3s;
+        text-transform: uppercase;
+        font: 12px arial;
+        line-height: 15px;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: left;
+        margin-bottom: 10px;
+        letter-spacing: -.4px;
+        padding: 10px 25px 10px 5px;
+        margin-top: -20px
+    }
+
+    #cb1 {
+        position: relative;
+        left: 80px;
+        top: 6px
+    }
+
+    #cb2 {
+        position: relative;
+        left: 135px;
+        top: 6px
+    }
+
+
+
+}
+
+@media screen and (min-width:100px) and (max-width:1000px) {
+    .Del-Calc-in-2 {
+        display: table;
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        margin: auto;
+        background: #fff;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.15)
+    }
+
+    .Del-Calc-line-1 {
+        width: 100%;
+        height: 50px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-1.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: -50px;
+        position: relative;
+        z-index: 99
+    }
+
+    .Del-Calc-line-2 {
+        width: 100%;
+        height: 50px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-2.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-top: -50px;
+        position: relative;
+        z-index: 999
+    }
+
+    .Del-Calc-line-3 {
+        width: 100%;
+        height: 50px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-31.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: -50px;
+        position: relative;
+        z-index: 99
+    }
+
+    .Del-Calc-line-4 {
+        width: 100%;
+        height: 50px;
+        background: url(https://aquapolis.ua/media/custom_css/Dell_Tixit/line-4.png) center no-repeat;
+        background-size: 100% 100%;
+        margin-top: -50px;
+        position: relative;
+        z-index: 999
+    }
+
+    .Del-Calc-subtitle p {
+        width: calc(100% - 70px);
+        height: 50px;
+        float: right;
+        margin: 0;
+        padding: 0;
+        display: table;
+        font: 13px arial;
+        color: #4bb8ff;
+        line-height: 1em;
+        text-transform: uppercase
+    }
+
+    .Del-Calc-select {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: table;
+        border-bottom: 1px solid rgba(53, 159, 251, 0.25);
+        margin-bottom: 15px;
+        font: 13px arial;
+        margin-left: 70px
+    }
+
+    select#option-1,
+    select#option-2 {
+        -webkit-border-radius: 2px;
+        border: 0 solid #AAA;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70px;
+        height: 26px;
+        float: right;
+        font: 16px arial;
+        font-weight: bolder;
+        padding: 1px 0 0 0;
+        color: #000;
+        background: #fff;
+        margin-top: 5px
+    }
+
+    .Del-Calc-radio {
+        width: calc(100% + 50px);
+        max-width: 430px;
+        height: auto;
+        display: table;
+        margin-top: 20px;
+        position: relative;
+        right: 45px;
+        margin-left: 70px
+    }
+
+    .Del-Calc-radio-01 {
+        width: 45px;
+        height: 50px;
+        float: left;
+        display: table
+    }
+
+    .Del-Calc-radio-02 {
+        width: calc(100% - 120px);
+        height: auto;
+        float: left;
+        display: table
+    }
+
+    .Del-Calc-radio-03 {
+        width: 75px;
+        height: 50px;
+        text-align: center;
+        font: 15px arial;
+        color: red;
+        font-weight: bolder;
+        float: left;
+        display: table
+    }
+
+    .Del-Calc-radio-04 {
+        width: calc(100% - 45px);
+        height: auto;
+        float: right;
+        display: table;
+        margin-bottom: 10px;
+        font: 11px arial;
+        opacity: .7
+    }
+
+    .Del-Calc-01-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        background: #000;
+        margin-top: 5px;
+        float: left;
+        position: relative;
+        right: 20px
+    }
+
+    .Del-Calc-radio input[type=radio]+label {
+        background: #fff;
+        color: #000;
+        width: calc(100% - 40px);
+        height: 40px;
+        display: table;
+        transition: .3s;
+        text-transform: uppercase;
+        font: 12px arial;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: left;
+        margin-top: 5px;
+        padding: 0 20px
+    }
+
+    .Del-Calc-radio input+label:hover {
+        background: rgba(75, 184, 255, 0.2);
+        color: #000
+    }
+
+    .Del-Calc-radio input+label:active {
+        background: #4bb8ff;
+        color: #fff
+    }
+
+    .Del-Calc-radio input[type=radio]:checked+label {
+        background: #4bb8ff;
+        color: #fff
+    }
+
+    .Del-Calc-radio input {
+        visibility: visible;
+        height: 43px;
+        position: absolute;
+        right: 85px
+    }
+
+    .hover-01 {
+        width: auto;
+        height: auto;
+        display: none;
+        position: absolute;
+        z-index: 9;
+        text-align: left;
+        color: #fff;
+        font: 12px arial
+    }
+
+    .hover-01 b {
+        background: red;
+        padding: 10px 20px;
+        border-radius: 3px;
+        position: relative;
+        left: 55px;
+        top: 45px
+    }
+
+    .Del-Calc-01 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1050px;
+        padding-top: 0;
+        z-index: 9
+    }
+
+    .Del-Calc-01-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1050px
+    }
+
+    .Del-Calc-01-left {
+        width: 100%;
+        height: 350px;
+        padding-top: 0;
+        background: linear-gradient(135deg, #35bfff, #3583ff);
+        color: #fff;
+        float: left;
+        display: table
+    }
+
+    .Del-Calc-01-left-img {
+        width: 100%;
+        height: 100%;
+        background: url(./img/bckground.png) right center no-repeat;
+        background-size: 1000px;
+        display: table
+    }
+
+    .Del-Calc-01-left-in {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 50px 0;
+        float: none;
+        margin: auto;
+        max-width: 500px
+    }
+
+    .Del-Calc-01-left h2 {
+        margin: 0;
+        padding: 0;
+        font: 40px arial;
+        text-transform: uppercase;
+        max-width: 100px;
+        line-height: 1em
+    }
+
+    .Del-Calc-01-left p {
+        margin: 0;
+        padding: 0;
+        font: 12px arial;
+        line-height: 15px;
+        padding-top: 20px
+    }
+
+    .Del-Calc-01-right {
+        width: 100%;
+        height: 600px;
+        float: left;
+        display: table;
+        padding-top: 0;
+        background: linear-gradient(135deg, #fff, #e0eaff)
+    }
+
+    .Del-Calc-01-right-in {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 50px 0;
+        margin: auto;
+        max-width: 500px
+    }
+
+    .Del-Calc-02 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1100px;
+        z-index: 9
+    }
+
+    .Del-Calc-02-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1100px
+    }
+
+    .Del-Calc-02-all {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 25px 0;
+        margin: auto
+    }
+
+    .Del-Calc-02-block {
+        width: calc(47% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 5px 0 5px
+    }
+
+    .Del-Calc-03 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1050px;
+        z-index: 9
+    }
+
+    .Del-Calc-03-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1050px
+    }
+
+    .Del-Calc-03-all {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 25px 0;
+        margin: auto;
+        border-top: 1px dashed rgba(75, 184, 255, 0.2)
+    }
+
+    .Del-Calc-03-block {
+        width: calc(50% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 5px 0 5px
+    }
+
+    #r01 {
+        position: relative;
+        left: 68px;
+        top: 6px
+    }
+
+    #r02 {
+        position: relative;
+        left: 68px;
+        top: 6px
+    }
+
+    #r03 {
+        position: relative;
+        left: 109px;
+        top: 7px;
+    }
+
+    .Del-Calc-03-img {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 10px;
+        background: #000
+    }
+
+    .Del-Calc-04 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1310px;
+        z-index: 9
+    }
+
+    .Del-Calc-04-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1310px
+    }
+
+    .Del-Calc-04-all {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 25px 0;
+        margin: auto;
+        border-top: 1px dashed rgba(75, 184, 255, 0.2)
+    }
+
+    .Del-Calc-04-block {
+        width: calc(50% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 5px 0 5px
+    }
+
+    #r001 {
+        position: relative;
+        left: 80px;
+        top: 6px
+    }
+
+    #r002 {
+        position: relative;
+        left: 93px;
+        top: 6px
+    }
+
+    #r003 {
+        position: relative;
+        left: 75px;
+        top: 6px
+    }
+
+    #r004 {
+        position: relative;
+        left: 72px;
+        top: 6px
+    }
+
+    #r005 {
+        position: relative;
+        left: 100px;
+        top: 6px
+    }
+
+    #r006 {
+        position: relative;
+        left: 67px;
+        top: 6px
+    }
+
+    #r007 {
+        position: relative;
+        left: 190px;
+        top: 13px
+    }
+
+    #DelRol-stoika-1 {
+        background: url(./img/white.png) center no-repeat;
+        background-size: contain
+    }
+
+    #DelRol-stoika-2 {
+        background: url(./img/gray.png) center no-repeat;
+        background-size: contain
+    }
+
+    #DelRol-stoika-3 {
+        background: url(./img/dark-gray.png) center no-repeat;
+        background-size: contain
+    }
+
+    #DelRol-stoika-4 {
+        background: url(./img/black.png) center no-repeat;
+        background-size: contain
+    }
+
+    #DelRol-stoika-5 {
+        background: url(./img/beige.png) center no-repeat;
+        background-size: contain
+    }
+
+    #DelRol-stoika-6 {
+        background: url(./img/green.png) center no-repeat;
+        background-size: contain
+    }
+
+    .Del-Calc-04-img {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 10px;
+        background: #000
+    }
+
+    .Del-Calc-05 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 840px;
+        z-index: 9
+    }
+
+    .Del-Calc-05-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 840px
+    }
+
+    .Del-Calc-05-all {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 25px 0;
+        margin: auto;
+        border-top: 1px dashed rgba(75, 184, 255, 0.2)
+    }
+
+    .Del-Calc-05-block {
+        width: calc(100% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 5px 30px 5px
+    }
+
+    .Del-Calc-05-block p {
+        margin-bottom: 5px;
+        font: 11px arial;
+        opacity: .7
+    }
+
+    .Del-Calc-05-block input[type=radio]+label {
+        background: #f1f5ff;
+        color: #000;
+        width: auto;
+        height: auto;
+        display: table;
+        transition: .3s;
+        text-transform: uppercase;
+        font: 12px arial;
+        line-height: 15px;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: left;
+        margin-bottom: 5px;
+        padding: 10px 40px 10px 15px;
+        margin-top: -20px
+    }
+
+    .Del-Calc-06 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 370px;
+        z-index: 9
+    }
+
+    .Del-Calc-06-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 370px
+    }
+
+    .Del-Calc-06-all {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 25px 0;
+        margin: auto;
+        border-top: 1px dashed rgba(75, 184, 255, 0.2)
+    }
+
+    .Del-Calc-06-block {
+        width: calc(50% - 10px);
+        height: auto;
+        float: left;
+        margin: 20px 5px 0 5px
+    }
+
+    .Del-Calc-06-block input[type=checkbox]+label {
+        background: #f1f5ff;
+        color: #000;
+        width: auto;
+        height: auto;
+        display: table;
+        transition: .3s;
+        text-transform: uppercase;
+        font: 12px arial;
+        line-height: 15px;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: left;
+        margin-bottom: 5px;
+        padding: 10px 25px 10px 5px;
+        margin-top: -20px
+    }
+
+    .Del-Calc-FIN-left-in {
+        width: calc(90% - 100px);
+        height: auto;
+        display: table;
+        padding: 50px;
+        float: none;
+        margin: auto;
+        max-width: 350px
+    }
+
+    .Del-Calc-FIN-left-in h3 {
+        margin: 0;
+        padding: 0 0 5px;
+        font: 25px arial;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #fff
+    }
+
+    .Del-Calc-FIN-block-title {
+        width: 100%;
+        height: auto;
+        float: left
+    }
+
+    .Del-Calc-FIN-block-all {
+        width: 100%;
+        height: auto;
+        float: right
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:550px) {
+
+    .Del-Calc-in-2 {
+        display: table;
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        margin: auto;
+        background: #fff;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.15)
+    }
+
+    .Del-Calc-select {
+        width: 70%;
+        max-width: 400px;
+        height: auto;
+        display: table;
+        border-bottom: 1px solid rgba(53, 159, 251, 0.25);
+        margin-bottom: 15px;
+        font: 13px arial;
+        margin-left: 70px
+    }
+
+    select#option-1,
+    select#option-2 {
+        -webkit-border-radius: 2px;
+        border: 0 solid #AAA;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 70px;
+        height: 26px;
+        float: right;
+        font: 16px arial;
+        font-weight: bolder;
+        padding: 1px 0 0 0;
+        color: #000;
+        background: #fff;
+        margin-top: 5px
+    }
+
+    .Del-Calc-radio {
+        width: calc(90% - 0px);
+        max-width: 400px;
+        height: auto;
+        display: table;
+        margin-top: 20px;
+        position: relative;
+        right: 45px;
+        margin: auto;
+        margin-left: 70px
+    }
+
+    .Del-Calc-radio input {
+        visibility: visible;
+        height: 43px;
+        position: absolute;
+        right: 85px
+    }
+
+    .hover-01 {
+        width: auto;
+        height: auto;
+        display: none;
+        position: absolute;
+        z-index: 9;
+        text-align: left;
+        color: #fff;
+        font: 12px arial
+    }
+
+    .hover-01 b {
+        background: red;
+        padding: 10px 20px;
+        border-radius: 3px;
+        position: relative;
+        left: 55px;
+        top: 45px
+    }
+
+    .Del-Calc-01 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1570px;
+        padding-top: 0;
+        z-index: 9
+    }
+
+    .Del-Calc-01-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1570px
+    }
+
+    .Del-Calc-01-right {
+        width: 100%;
+        height: 550px;
+        float: left;
+        display: table;
+        padding-top: 0;
+        background: linear-gradient(135deg, #fff, #e0eaff)
+    }
+
+    .Del-Calc-01-right-in {
+        width: calc(90% - 0px);
+        height: auto;
+        display: table;
+        padding: 50px 0;
+        margin: auto;
+        max-width: 360px
+    }
+    .Del-Calc-02-block {
+        width: calc(100% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 5px 0 5px;
+    }
+    .Del-Calc-03-block {
+        width: calc(100% - 10px);
+        height: auto;
+        float: left;
+        margin: 10px 5px 0 5px;
+    }
+    .Del-Calc-02-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 2000px;
+    }
+    .Del-Calc-02 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 2000px;
+        z-index: 9;
+    }
+
+    #r11 {
+        position: relative;
+        left: 60px;
+        top: 6px
+    }
+
+    #r12 {
+        position: relative;
+        left: 78px;
+        top: 6px
+    }
+
+    #r13 {
+        position: relative;
+        left: 59px;
+        top: 6px
+    }
+
+    #r14 {
+        position: relative;
+        left: 57px;
+        top: 6px
+    }
+
+    #r15 {
+        position: relative;
+        left: 130px;
+        top: 12px
+    }
+
+    #r16 {
+        position: relative;
+        left: 130px;
+        top: 12px
+    }
+
+    #r17 {
+        position: relative;
+        left: 130px;
+        top: 6px
+    }
+
+    #r18 {
+        position: relative;
+        left: 130px;
+        top: 12px
+    }
+
+    .hover-02 {
+        width: auto;
+        height: 380px;
+        display: none;
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        color: #fff;
+        font: 11px arial;
+        letter-spacing: -.4px
+    }
+
+    .hover-02 b {
+        background: red;
+        padding: 10px 3px;
+        border-radius: 3px;
+        position: relative;
+        bottom: 120px
+    }
+
+    .Del-Calc-03 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1850px;
+        z-index: 9
+    }
+
+    .Del-Calc-03-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1850px
+    }
+
+    .Del-Calc-03-img {
+        margin-left: 10px;
+    }
+
+    #DelRol-stoika-1 {
+        background: url(./img/white.png) center no-repeat;
+        background-size: contain;
+    }
+
+    #DelRol-stoika-2 {
+        background: url(./img/gray.png) center no-repeat;
+        background-size: contain;
+    }
+
+    #DelRol-stoika-3 {
+        background: url(./img//dark-gray.png) center no-repeat;
+        background-size: contain;
+    }
+
+    #DelRol-stoika-4 {
+        background: url(./img/black.png) center no-repeat;
+        background-size: contain;
+    }
+
+    #DelRol-stoika-5 {
+        background: url(./img/beige.png) center no-repeat;
+        background-size: contain;
+    }
+
+    #DelRol-stoika-6 {
+        background: url(./img/green.png) center no-repeat;
+        background-size: contain;
+    }
+
+    #r01 {
+        position: relative;
+        left: 68px;
+        top: 6px
+    }
+
+    #r02 {
+        position: relative;
+        left: 68px;
+        top: 6px
+    }
+
+    #r03 {
+        position: relative;
+        left: 110px;
+        top: 6px;
+    }
+
+    .Del-Calc-04 {
+        position: absolute;
+        left: 0;
+        display: table;
+        width: 100%;
+        height: 1365px;
+        z-index: 9
+    }
+
+    .Del-Calc-04-in {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 1365px
+    }
+
+    #r001 {
+        position: relative;
+        left: 80px;
+        top: 6px
+    }
+
+    #r002 {
+        position: relative;
+        left: 93px;
+        top: 6px
+    }
+
+    #r003 {
+        position: relative;
+        left: 75px;
+        top: 6px
+    }
+
+    #r004 {
+        position: relative;
+        left: 72px;
+        top: 6px
+    }
+
+    #r005 {
+        position: relative;
+        left: 100px;
+        top: 6px
+    }
+
+    #r006 {
+        position: relative;
+        left: 67px;
+        top: 6px
+    }
+
+    #r007 {
+        position: relative;
+        left: 145px;
+        top: 13px
+    }
+
+    #cb1 {
+        position: relative;
+        left: 80px;
+        top: 7px
+    }
+
+    #cb2 {
+        position: relative;
+        left: 137px;
+        top: 7px;
+    }
+}

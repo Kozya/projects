@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e44f539f-9b10-4ea1-9050-3db1002f1123" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y2OuTK7r36iZarJRCuFwkyoEXP" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-3/create-tree-simple" />
+      <recent name="$PROJECT_DIR$/task-3/create-list" />
+      <recent name="$PROJECT_DIR$/tasks-2/clock" />
+      <recent name="$PROJECT_DIR$/tasks-2/create-tree" />
+      <recent name="$PROJECT_DIR$/tasks-2/pompt" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-3" />
+      <recent name="$PROJECT_DIR$/tasks/task-1" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e44f539f-9b10-4ea1-9050-3db1002f1123" name="Default Changelist" comment="" />
+      <created>1582137444513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582137444513</updated>
+      <workItem from="1582137445698" duration="3159000" />
+      <workItem from="1582178739844" duration="668000" />
+      <workItem from="1582316837205" duration="7652000" />
+      <workItem from="1582325397314" duration="1251000" />
+      <workItem from="1582361888155" duration="672000" />
+      <workItem from="1582405244343" duration="1986000" />
+      <workItem from="1582479442256" duration="5000" />
+      <workItem from="1582742754803" duration="169000" />
+      <workItem from="1582743185370" duration="689000" />
+      <workItem from="1582746538619" duration="9000" />
+      <workItem from="1582924976143" duration="2587000" />
+      <workItem from="1583003798118" duration="121000" />
+      <workItem from="1583079124507" duration="952000" />
+      <workItem from="1583566022121" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582318059489">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="439" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1582318059489" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1582746332325">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582746332325" />
+    <state x="100" y="100" width="1240" height="700" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582139920839">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1582139920839" />
+    <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582323743045">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1582323743045" />
+  </component>
+</project>

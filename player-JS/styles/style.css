@@ -1,0 +1,127 @@
+body {
+    background: #e3e3e3;
+    font-size: 14px;
+    color: #fff;
+}
+
+.container {
+    padding-top: 50px;
+    width: 1000px;
+    height: 100vh;
+    background: #fff;
+    margin: auto;
+}
+
+.player {
+    padding: 20px 30px;
+    width: 500px;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    background: #82abff;
+}
+
+.player__information, .playlist__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin: auto;
+}
+
+/*INFO BLOCK*/
+.info {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.info__poster {
+    width: 100px;
+    height: 100px;
+}
+
+.info__title {
+    margin: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/*CONTROLS*/
+.player__controls {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.control-item:first-of-type {
+    margin-left: 0;
+}
+
+.control-item--play {
+    background: url('../img/icons/play.svg') center;
+    fill: #ffffff;
+}
+
+.control-item--next {
+    background: url('../img/icons/next.svg') center;
+    fill: #ffffff;
+}
+
+.control-item--stop {
+    background: url('../img/icons/stop.svg') center;
+    fill: #ffffff;
+}
+
+.control-item--previous {
+    background: url('../img/icons/previous.svg') center;
+    fill: #ffffff;
+}
+
+.control-item--pause {
+    background: url('../img/icons/pause.svg') center;
+    fill: #ffffff;
+}
+
+/*PLAYLIST    */
+
+.playlist__item {
+    height: 50px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #222222;
+    cursor: pointer;
+}
+
+.song-img {
+    width: 30px;
+    height: 30px;
+}
+
+.song-name {
+    margin: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.active {
+    background-color: orange;
+}

@@ -1,0 +1,874 @@
+ body {
+     margin: 0px;
+ }
+ 
+ .container {
+     background: url("./Twinings_Assets/peppermint-BG.jpg");
+     width: 100%;
+     min-height: 667px;
+     overflow: hidden;
+ }
+ 
+ .header-block {
+     width: 100%;
+     position: relative;
+     top: 0px;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     -webkit-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .header-img {
+     width: 104%;
+ }
+ 
+ .header-icon-new {
+     width: 15%;
+     position: absolute;
+     left: 70px;
+     top: 0px;
+     -webkit-transition: top 1s ease-in-out;
+     -moz-transition: top 1s ease-in-out;
+     -o-transition: top 1s ease-in-out;
+     transition: top 1s ease-in-out;
+     z-index: 50;
+ }
+ 
+ .header-tagline {
+     position: absolute;
+     top: 62%;
+     left: 40%;
+     width: 0px;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .grid {
+     position: relative;
+     display: grid;
+     grid-template-columns: repeat(24, 1fr);
+     grid-template-rows: repeat(24, 1fr);
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+ }
+ 
+ .tea {
+     position: relative;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+ }
+ 
+ .tea-element-top,
+ .peppermint-top {
+     opacity: 1 !important;
+     left: -45%;
+     z-index: 1;
+     top: 10%;
+     position: absolute;
+     grid-area: 2 / 17 / 10 / 22;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     width: 184%;
+ }
+ 
+ .tea-element-bottom,
+ .peppermint-bottom {
+     opacity: 1 !important;
+     left: -35%;
+     top: -21%;
+     position: absolute;
+     width: 213%;
+     grid-area: 14 / 3 / 24 / 9;
+     z-index: 1;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .mint-2 {
+     position: absolute;
+     width: 35%;
+     top: 96%;
+     left: 75%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .element-top {
+     opacity: 1 !important;
+     left: -13%;
+     top: 8%;
+     position: absolute;
+     width: 31%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .seed-1 {
+     position: absolute;
+     width: 9%;
+     top: 80%;
+     left: 81%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .seed-2 {
+     position: absolute;
+     top: 44%;
+     left: 95%;
+     width: 11%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .arrow-left {
+     position: absolute;
+     left: 4%;
+     top: 40%;
+     width: 10%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     cursor: pointer;
+     z-index: 50;
+ }
+ 
+ .arrow-right {
+     position: absolute;
+     left: 85%;
+     top: 40%;
+     width: 10%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     cursor: pointer;
+     z-index: 50;
+ }
+ 
+ .btn {
+     opacity: 1;
+     width: 40%;
+     top: 88%;
+     left: 30%;
+     z-index: 100;
+     position: absolute;
+ }
+ 
+ .start-container {
+     background: url("./Twinings_Assets/peppermint-BG.jpg");
+     width: 100%;
+     min-height: 900px;
+ }
+ 
+ .start-header-block {
+     width: 100%;
+     position: relative;
+     top: -560px;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     -webkit-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-header-img {
+     width: 104%;
+ }
+ 
+ .start-header-icon-new {
+     width: 15%;
+     position: absolute;
+     left: 70px;
+     top: -15%;
+     -webkit-transition: top 1s ease-in-out;
+     -moz-transition: top 1s ease-in-out;
+     -o-transition: top 1s ease-in-out;
+     transition: top 1s ease-in-out;
+ }
+ 
+ .start-header-tagline {
+     position: absolute;
+     top: 62%;
+     left: 45%;
+     width: 0px;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-grid {
+     position: relative;
+     display: grid;
+     grid-template-columns: repeat(24, 1fr);
+     grid-template-rows: repeat(24, 1fr);
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+ }
+ 
+ .start-tea {
+     position: relative;
+     right: -520px;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     -webkit-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-strawbery {
+     left: -45%;
+     z-index: 1;
+     top: 10%;
+     position: absolute;
+     grid-area: 2 / 17 / 10 / 22;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     width: 0%;
+ }
+ 
+ .start-mint-1 {
+     left: -35%;
+     top: -21%;
+     position: absolute;
+     width: 0%;
+     grid-area: 14 / 3 / 24 / 9;
+     z-index: 1;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-mint-2 {
+     position: absolute;
+     width: 0%;
+     top: 96%;
+     left: 75%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-strawbery-2 {
+     left: -13%;
+     top: 8%;
+     position: absolute;
+     width: 0%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-seed-1 {
+     position: absolute;
+     width: 0%;
+     top: 80%;
+     left: 81%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-seed-2 {
+     position: absolute;
+     top: 44%;
+     left: 95%;
+     width: 0%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .start-arrow-left {
+     position: absolute;
+     left: 4%;
+     top: 40%;
+     width: 0%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     cursor: pointer;
+     z-index: 50;
+ }
+ 
+ .start-arrow-right {
+     position: absolute;
+     left: 85%;
+     top: 40%;
+     width: 0%;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+     z-index: 50;
+     cursor: pointer;
+ }
+ 
+ .start-btn {
+     opacity: 0;
+     width: 40%;
+     top: 100%;
+     left: 30%;
+     position: absolute;
+     -webkit-transition: all 1s ease-in-out;
+     -moz-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+     transition: all 1s ease-in-out;
+ }
+ 
+ .hidden {
+     display: none;
+ }
+ 
+ .header-block-slide {
+     top: 0px;
+ }
+ 
+ .header-icon-new-raspberry {
+     top: 0px;
+ }
+ 
+ .header-img {
+     opacity: 1;
+     transition: opacity 500ms ease-in-out;
+ }
+ 
+ .peach-top {
+     opacity: 1 !important;
+     top: -7%;
+     width: 143%;
+     left: -55%;
+     z-index: 1;
+     grid-area: 2 / 17 / 10 / 22;
+     position: absolute;
+     animation: peach-top 1s ease-in-out;
+ }
+ 
+ .peach-bottom {
+     top: -4%;
+     opacity: 1 !important;
+     left: -25%;
+     position: absolute;
+     grid-area: 14 / 3 / 24 / 9;
+     z-index: 1;
+     width: 160%;
+     animation: peach-bottom 1s ease-in-out;
+ }
+ 
+ .raspberry-top {
+     opacity: 1 !important;
+     top: 3%;
+     width: 115%;
+     left: -68%;
+     z-index: 1;
+     grid-area: 2 / 17 / 10 / 22;
+     position: absolute;
+     animation: raspberry-top 1s ease-in-out;
+ }
+ 
+ .raspberry-bottom {
+     opacity: 1 !important;
+     top: -5%;
+     left: -30%;
+     position: absolute;
+     grid-area: 14 / 3 / 24 / 9;
+     z-index: 1;
+     width: 178%;
+     animation: raspberry-bottom 1s ease-in-out;
+ }
+ 
+ .peppermint-top {
+     animation: peppermint-top 1s ease-in-out;
+ }
+ 
+ .peppermint-bottom {
+     animation: peppermint-bottom 1s ease-in-out;
+ }
+ 
+ .raspberry-head {
+     width: 100%;
+     position: relative;
+     top: 0px;
+     animation: raspberry-head 1s ease-in-out;
+ }
+ 
+ .peppermint-head {
+     width: 104%;
+     position: relative;
+     top: 0px;
+     animation: peppermint-head 1s ease-in-out;
+ }
+ 
+ .peach-head {
+     width: 100%;
+     position: relative;
+     top: 0px;
+     animation: peach-head 1s ease-in-out;
+ }
+ 
+ .strawberry-top {
+     opacity: 1 !important;
+     left: -13%;
+     top: 8%;
+     position: absolute;
+     width: 31%;
+     animation: strawberry-top 1s ease-in-out;
+ }
+ 
+ .mint-bottom {
+     opacity: 1 !important;
+     position: absolute;
+     width: 35%;
+     top: 96%;
+     left: 75%;
+     animation: mint-bottom 1s ease-in-out;
+ }
+ 
+ .seed-bottom {
+     opacity: 1 !important;
+     position: absolute;
+     width: 9%;
+     top: 80%;
+     left: 81%;
+     animation: seed-bottom 1s ease-in-out;
+ }
+ 
+ .seed-top {
+     opacity: 1 !important;
+     position: absolute;
+     top: 44%;
+     left: 95%;
+     width: 11%;
+     animation: seed-top 1s ease-in-out;
+ }
+ 
+ .none {
+     display: none;
+ }
+ 
+ .raspberry {
+     opacity: 1 !important;
+     left: 60%;
+     top: 19%;
+     position: absolute;
+     width: 31%;
+     z-index: 1;
+     animation: raspberry 1s ease-in-out;
+ }
+ 
+ .petal-left-top {
+     left: 0%;
+     top: 8%;
+     position: absolute;
+     width: 31%;
+ }
+ 
+ .petal-left-bottom {
+     left: 0%;
+     top: 8%;
+     position: absolute;
+     width: 31%;
+ }
+ 
+ .raspberry-top-2 {
+     opacity: 1 !important;
+     left: -7%;
+     top: -14%;
+     position: absolute;
+     width: 31%;
+     animation: raspberry 1s ease-in-out;
+ }
+ 
+ .petal-1 {
+     opacity: 1 !important;
+     left: 79%;
+     top: 0%;
+     position: absolute;
+     width: 29%;
+     animation: petal-1 1s ease-in-out;
+ }
+ 
+ .petal-2 {
+     opacity: 1 !important;
+     left: 10%;
+     top: 12%;
+     position: absolute;
+     width: 21%;
+     animation: petal-2 1s ease-in-out;
+ }
+ 
+ .petal-3 {
+     opacity: 1 !important;
+     left: 57%;
+     top: 42%;
+     position: absolute;
+     width: 31%;
+     animation: raspberry 1s ease-in-out;
+ }
+ 
+ .petal-4 {
+     opacity: 1 !important;
+     left: -14%;
+     top: 23%;
+     position: absolute;
+     width: 24%;
+     animation: petal-4 1s ease-in-out;
+ }
+ 
+ .not-available {
+     display: none;
+ }
+ 
+ .tea {
+     position: relative;
+     left: 0%;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+ }
+ 
+ .tea-move-right {
+     position: relative;
+     left: 0%;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+     animation: tea-right 1s ease-in-out;
+ }
+ 
+ .tea-move-left {
+     position: relative;
+     left: 0%;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+     animation: tea-left 1s ease-in-out;
+ }
+ 
+ .tea-slide-right {
+     position: relative;
+     left: 0%;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+     animation: tea-slide-right 1s ease-in-out;
+ }
+ 
+ .tea-slide-left {
+     position: relative;
+     left: 0%;
+     width: 100%;
+     z-index: 2;
+     grid-area: 5 / 6 / 21 / 20;
+     animation: tea-slide-left 1s ease-in-out;
+ }
+ 
+ .btn {
+     opacity: 1;
+     width: 40%;
+     top: 100%;
+     left: 30%;
+     z-index: 100;
+     position: absolute;
+     animation: btn 1s ease-in-out;
+ }
+ 
+ @keyframes btn {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes tea-slide-left {
+     from {
+         left: 0%
+     }
+     to {
+         left: -150%
+     }
+ }
+ 
+ @keyframes tea-slide-right {
+     from {
+         left: 0%
+     }
+     to {
+         left: 150%
+     }
+ }
+ 
+ @keyframes tea-left {
+     from {
+         left: -150%
+     }
+     to {
+         left: 0%
+     }
+ }
+ 
+ @keyframes tea-right {
+     from {
+         left: 150%
+     }
+     to {
+         left: 0%
+     }
+ }
+ 
+ @keyframes petal-4 {
+     from {
+         width: 0%
+     }
+     to {
+         width: 24%
+     }
+ }
+ 
+ @keyframes petal-1 {
+     from {
+         width: 0%
+     }
+     to {
+         width: 29%
+     }
+ }
+ 
+ @keyframes petal-2 {
+     from {
+         width: 0%
+     }
+     to {
+         width: 21%
+     }
+ }
+ 
+ @keyframes raspberry {
+     from {
+         width: 0%
+     }
+     to {
+         width: 31%
+     }
+ }
+ 
+ @keyframes seed-bottom {
+     from {
+         width: 0%
+     }
+     to {
+         width: 9%
+     }
+ }
+ 
+ @keyframes seed-top {
+     from {
+         width: 0%
+     }
+     to {
+         width: 11%
+     }
+ }
+ 
+ @keyframes strawberry-top {
+     from {
+         width: 0%
+     }
+     to {
+         width: 31%
+     }
+ }
+ 
+ @keyframes mint-bottom {
+     from {
+         width: 0%
+     }
+     to {
+         width: 35%
+     }
+ }
+ 
+ @keyframes peppermint-head {
+     from {
+         opacity: 0.4;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes peach-head {
+     from {
+         opacity: 0.4;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes raspberry-head {
+     from {
+         opacity: 0.4;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes raspberry-bottom {
+     from {
+         width: 0%
+     }
+     to {
+         width: 178%
+     }
+ }
+ 
+ @keyframes raspberry-top {
+     from {
+         width: 0%
+     }
+     to {
+         width: 115%
+     }
+ }
+ 
+ @keyframes peach-top {
+     from {
+         width: 0%
+     }
+     to {
+         width: 143%
+     }
+ }
+ 
+ @keyframes peach-bottom {
+     from {
+         width: 0%
+     }
+     to {
+         width: 160%
+     }
+ }
+ 
+ @keyframes peach-top {
+     from {
+         width: 0%
+     }
+     to {
+         width: 143%
+     }
+ }
+ 
+ @keyframes peach-bottom {
+     from {
+         width: 0%
+     }
+     to {
+         width: 160%
+     }
+ }
+ 
+ @keyframes peppermint-top {
+     from {
+         width: 0%
+     }
+     to {
+         width: 184%
+     }
+ }
+ 
+ @keyframes peppermint-bottom {
+     from {
+         width: 0%
+     }
+     to {
+         width: 213%
+     }
+ }
+ 
+ @media screen and (min-width: 550px) {
+     .slider {
+         display: none;
+     }
+     .not-available {
+         display: block;
+         width: 100%;
+         height: 100vh;
+     }
+ }
+ 
+ @media screen and (max-height: 736px) {
+     .container {
+         min-height: 736px;
+     }
+ }
+ 
+ @media screen and (max-height: 667px) {
+     .container {
+         min-height: 667px;
+     }
+ }
+ 
+ @media screen and (max-height: 622px) {
+     .container {
+         min-height: 622px;
+     }
+     .header-block {
+         width: 88%;
+     }
+     .grid,
+     .start-grid {
+         width: 80%;
+         margin: 0 auto;
+     }
+     .start-header-block {
+         width: 88%;
+     }
+ }
+ 
+ @media screen and (max-height: 559px) {
+     .container {
+         min-height: 559px;
+     }
+     .header-block {
+         width: 88%;
+     }
+     .grid,
+     .start-grid {
+         width: 80%;
+         margin: 0 auto;
+     }
+     .start-header-block {
+         width: 88%;
+     }
+ }

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./data2.js"></script>
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <div class="std">
+        <div class="noselect">
+            <section class="Del-Calc-01">
+                <div class="Del-Calc-line-1"></div>
+                <div class="Del-Calc-in">
+                    <div class="Del-Calc-01-left">
+                        <div class="Del-Calc-01-left-img">
+                            <div class="Del-Calc-01-left-in">
+                                <h2><b>Рассчет</b> стоимости ролет</h2>
+                                <p>Калькулятор стоимости ролеты с учетом всех комплектующих и цветовых предпочтений.
+                                    Рассчет состоит из 6 этапов. Вы всегда можете обратиться к нашему менеджеру за более
+                                    подробной информацией.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Del-Calc-01-right">
+                        <div class="Del-Calc-01-right-in">
+                            <div class="Del-Calc-subtitle"> <span>1<em>/6</em></span>
+                                <p>
+                                    <font class="v-align">Укажите <b>габариты бассейна</b></font>
+                                </p>
+                            </div>
+                            <div class="Del-Calc-content">
+                                <div class="Del-Calc-select">
+                                    <p>Ширина бассейна</p>
+                                    <form method="POST"> <select id="option-1" size="1" type="number" name="x">
+                                            <option disabled selected value="">0 м</option>
+                                            <option value="3">3 м</option>
+                                            <option value="3.5">3.5 м</option>
+                                            <option value="4">4 м</option>
+                                            <option value="4.5">4.5 м</option>
+                                            <option value="5">5 м</option>
+                                            <option value="6">6 м</option>
+                                            <option value="7">7 м</option>
+                                            <option value="8">8 м</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="Del-Calc-select">
+                                    <p>Длина бассейна</p> <select id="option-2" size="1" type="number" name="y">
+                                        <option disabled selected value="">0 м</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="Del-Calc-subtitle"> <span>2<em>/6</em></span>
+                                <p>
+                                    <font class="v-align">Выберите <b>вид ролеты</b></font>
+                                </p>
+                            </div>
+                            <div class="Del-Calc-content">
+                                <div class="Del-Calc-radio">
+                                    <div class="hover-01" id="op01">
+                                        <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                    </div>
+                                    <div id="op1">
+                                        <div class="Del-Calc-radio-01">
+                                            <div class="Del-Calc-01-icon" id="DelRol-i3"></div>
+                                        </div>
+                                        <div class="Del-Calc-radio-02">
+                                            <input id="radio-1" name="radio1" value="" type="radio">
+                                            <label for="radio-1"><span class="v-align">Ручное управление</span></label>
+                                        </div>
+                                        <div class="Del-Calc-radio-03">
+                                            <div class="v-align" id="Price01"></div>
+                                        </div>
+                                        <div class="Del-Calc-radio-04"> Ручное управление ролетой, с помощью отдельно
+                                            устанавливаемого поворотного колеса.</div>
+                                    </div>
+                                </div>
+                                <div class="Del-Calc-radio">
+                                    <div class="hover-01" id="op01">
+                                        <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                    </div>
+                                    <div id="op1">
+                                        <div class="Del-Calc-radio-01">
+                                            <div class="Del-Calc-01-icon" id="DelRol-i1"></div>
+                                        </div>
+                                        <div class="Del-Calc-radio-02">
+                                            <input id="radio-2" name="radio1" value="" type="radio">
+                                            <label for="radio-2"><span class="v-align">Электрический от
+                                                    электросети</span></label></div>
+                                        <div class="Del-Calc-radio-03">
+                                            <div class="v-align" id="Price02"></div>
+                                        </div>
+                                        <div class="Del-Calc-radio-04"> Автоматический электрический механизм от
+                                            Электросети с управлением по Wi-Fi. <b>Подходит для бассейнов шириной от 2,5
+                                                до 5 м. и длиной от 3 до 13 м.</b></div>
+                                    </div>
+                                </div>
+                                <div class="Del-Calc-radio">
+                                    <div class="hover-01" id="op02">
+                                        <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                    </div>
+                                    <div id="op2">
+                                        <div class="Del-Calc-radio-01">
+                                            <div class="Del-Calc-01-icon" id="DelRol-i2"></div>
+                                        </div>
+                                        <div class="Del-Calc-radio-02">
+                                            <input id="radio-3" name="radio1" value="" type="radio">
+                                            <label for="radio-3"><span class="v-align">Автономный от солнечных
+                                                    батарей</span></label></div>
+                                        <div class="Del-Calc-radio-03">
+                                            <div class="v-align" id="Price03"></div>
+                                        </div>
+                                        <div class="Del-Calc-radio-04"> Автоматический автономный механизм от Солнечных
+                                            батарей с управлением по Wi-Fi. <b>Подходит для бассейнов шириной от 2,5 до
+                                                5 м. и длиной от 3 до 13 м.</b></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Del-Calc-line-2"></div>
+            </section>
+            <section class="Del-Calc-01-in"></section>
+            <section class="Del-Calc-02">
+                <div class="Del-Calc-in-2">
+                    <div class="Del-Calc-02-all">
+                        <div class="Del-Calc-subtitle"> <span>3<em>/6</em></span>
+                            <p>
+                                <font class="v-align">Выберите <b>вид ламели</b></font>
+                            </p>
+                        </div>
+                        <div class="Del-Calc-content">
+                            <div class="Del-Calc-02-block">
+                                <div class="Del-Calc-02-img" id="DelRol-lamel-1"></div> <input id="r11" name="r2"
+                                    type="radio" value="Белые">
+                                <label for="r11"><span class="v-align">Белые</span></label>
+                                <div class="Del-Calc-02-price" id="Price21"></div>
+                                <p>Ламели <b>непрозрачные из ПВХ</b>, белого цвета. <b>MAX ширина 10м.</b></p>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="Del-Calc-02-img" id="DelRol-lamel-2"></div> <input id="r12" name="r2"
+                                    type="radio" value="Бежевые"> <label for="r12"><span
+                                        class="v-align">Бежевые</span></label>
+                                <div class="Del-Calc-02-price" id="Price22"></div>
+                                <p>Ламели <b>непрозрачные из ПВХ</b>, бежевого цвета. <b>MAX ширина 10м.</b></p>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="Del-Calc-02-img" id="DelRol-lamel-3"></div> <input id="r13" name="r2"
+                                    type="radio" value="Серые"> <label for="r13"><span
+                                        class="v-align">Серые</span></label>
+                                <div class="Del-Calc-02-price" id="Price23"></div>
+                                <p>Ламели <b>непрозрачные из ПВХ</b>, серого цвета. <b>MAX ширина 10м.</b></p>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="Del-Calc-02-img" id="DelRol-lamel-4"></div> <input id="r14" name="r2"
+                                    type="radio" value="Синие"> <label for="r14"><span
+                                        class="v-align">Синие</span></label>
+                                <div class="Del-Calc-02-price" id="Price24"></div>
+                                <p>Ламели <b>непрозрачные из ПВХ</b>, синего цвета. <b>MAX ширина 10м.</b></p>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="hover-02" id="op03">
+                                    <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                </div>
+                                <div id="op3i">
+                                    <div class="Del-Calc-02-img" id="DelRol-lamel-5"></div>
+                                </div>
+                                <div id="op3"> <input id="r15" name="r2" type="radio" value="Прозрачные глубоко-черные">
+                                    <label for="r15"><span class="v-align">Прозрачные глубоко-черные</span></label>
+                                    <div class="Del-Calc-02-price" id="Price25"></div>
+                                    <p>Прозрачные ламели - черные. <b>MAX ширина 10м.</b></p>
+                                </div>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="hover-02" id="op04">
+                                    <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                </div>
+                                <div id="op4i">
+                                    <div class="Del-Calc-02-img" id="DelRol-lamel-6"></div>
+                                </div>
+                                <div id="op4"> <input id="r16" name="r2" type="radio" value="Прозрачные серебряные">
+                                    <label for="r16"><span class="v-align">Прозрачные серебряные</span></label>
+                                    <div class="Del-Calc-02-price" id="Price26"></div>
+                                    <p>Прозрачные ламели - серебряные. <b>MAX ширина 10м.</b></p>
+                                </div>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="hover-02" id="op05">
+                                    <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                </div>
+                                <div id="op5i">
+                                    <div class="Del-Calc-02-img" id="DelRol-lamel-7"></div>
+                                </div>
+                                <div id="op5"> <input id="r17" name="r2" type="radio" value="Прозрачные черные"> <label
+                                        for="r17"><span class="v-align">Прозрачные черные</span></label>
+                                    <div class="Del-Calc-02-price" id="Price27"></div>
+                                    <p>Прозрачные поликарбонатовые рейки. <b>MAX ширина 10м.</b></p>
+                                </div>
+                            </div>
+                            <div class="Del-Calc-02-block">
+                                <div class="hover-02" id="op06">
+                                    <div class="v-align"><b>Неподходящий размер бассейна</b></div>
+                                </div>
+                                <div id="op6i">
+                                    <div class="Del-Calc-02-img" id="DelRol-lamel-8"></div>
+                                </div>
+                                <div id="op6"> <input id="r18" name="r2" type="radio" value="Прозрачные цветные"> <label
+                                        for="r18"><span class="v-align">Прозрачные цветные</span></label>
+                                    <div class="Del-Calc-02-price" id="Price28"></div>
+                                    <p>Цветные прозрачные поликарбонатовые ламели. <b>MAX ширина 10м.</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Del-Calc-02-in"></section>
+            <section class="Del-Calc-03">
+                <div class="Del-Calc-in-2">
+                    <div class="Del-Calc-03-all">
+                        <div class="Del-Calc-subtitle"> <span>4<em>/6</em></span>
+                            <p>
+                                <font class="v-align">Выберите <b>цвет стоек</b></font>
+                            </p>
+                        </div>
+                        <div class="Del-Calc-content">
+                            <div class="Del-Calc-03-block">
+                                <div class="Del-Calc-03-img" id="DelRol-stoika-1"></div> <input id="r01" name="r01"
+                                    type="radio" value="0"> <label for="r01"><span
+                                        class="v-align">Белый</span></label>
+                                <div class="Del-Calc-03-price" id="Price101"></div>
+                                <p>Цвет стоек по умолчанию <br>
+                                    Стандартное время выполнения заказа</p>
+                            </div>
+                            <div class="Del-Calc-03-block">
+                                <div class="Del-Calc-03-img" id="DelRol-stoika-2"></div> <input id="r02" name="r01"
+                                    type="radio" value="Серые"> <label for="r02"><span
+                                        class="v-align">Серый</span></label>
+                                <div class="Del-Calc-03-price" id="Price102"></div>
+                                <p>RAL 7040 <br>
+                                    Дополнительное время выполнения<br> заказа: стандартное время выполнения<br> заказа
+                                    + 10 дней
+                                </p>
+                            </div>
+                            <div class="Del-Calc-03-block">
+                                <div class="Del-Calc-03-img" id="DelRol-stoika-3"></div> <input id="r03" name="r01"
+                                    type="radio" value="">
+                                <label for="r03"><span class="v-align">Темно-серый</span></label>
+                                <div class="Del-Calc-03-price" id="Price103"></div>
+                                <p>RAL 7022 <br>
+                                    Дополнительное время выполнения<br> заказа: стандартное время выполнения<br> заказа
+                                    + 10 дней</p>
+                            </div>
+                            <div class="Del-Calc-03-block">
+                                <div class="Del-Calc-03-img" id="DelRol-stoika-4"></div> <input id="r04" name="r01"
+                                    type="radio" value="Белые"> <label for="r04"><span
+                                        class="v-align">Черный</span></label>
+                                <div class="Del-Calc-03-price" id="Price104"></div>
+                                <p>RAL 9005 <br>
+                                    Дополнительное время выполнения<br> заказа: стандартное время выполнения<br> заказа
+                                    + 10 дней</p>
+                            </div>
+                            <div class="Del-Calc-03-block">
+                                <div class="Del-Calc-03-img" id="DelRol-stoika-5"></div> <input id="r05" name="r01"
+                                    type="radio" value="Серые"> <label for="r05"><span
+                                        class="v-align">Бежевый</span></label>
+                                <div class="Del-Calc-03-price" id="Price105"></div>
+                                <p>RAL 1015 <br>
+                                    Дополнительное время выполнения<br> заказа: стандартное время выполнения<br> заказа
+                                    + 10 дней</p>
+                            </div>
+                            <div class="Del-Calc-03-block">
+                                <div class="Del-Calc-03-img" id="DelRol-stoika-6"></div> <input id="r06" name="r01"
+                                    type="radio" value="">
+                                <label for="r06"><span class="v-align">Зеленый</span></label>
+                                <div class="Del-Calc-03-price" id="Price106"></div>
+                                <p>RAL 6005 <br>
+                                    Дополнительное время выполнения<br> заказа: стандартное время выполнения<br> заказа
+                                    + 10 дней</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Del-Calc-03-in"></section>
+            <section class="Del-Calc-05">
+                <div class="Del-Calc-in-2">
+                    <div class="Del-Calc-05-all">
+                        <div class="Del-Calc-subtitle"> <span>5<em>/6</em></span>
+                            <p>
+                                <font class="v-align">Выберите <b>вид крепления</b></font>
+                            </p>
+                        </div>
+                        <div class="Del-Calc-content">
+                            <div class="Del-Calc-05-block"> <input id="r9" name="r3" type="radio"
+                                    value="Поверхсностный монтаж"> <label for="r9"><span class="v-align">Straplocking
+                                    </span></label>
+                                <div class="Del-Calc-05-price" id="Price32"></div>
+                                <p>Комплект креплений для блокировки с замком</p>
+                                <div class="Del-Calc-05-img" id="DelRol-k2"></div>
+                            </div>
+                            <div class="Del-Calc-05-block"> <input id="r8" name="r3" type="radio"
+                                    value="Внутренний монтаж"> <label for="r8"><span
+                                        class="v-align">Pushlock</span></label>
+                                <div class="Del-Calc-05-price" id="Price31"></div>
+                                <p>Комплект креплений для блокировки с замком</p>
+                                <div class="Del-Calc-05-img" id="DelRol-k1"></div>
+                            </div>
+                            <div class="Del-Calc-05-block"> <input id="r10" name="r3" type="radio"
+                                    value="Навесной монтаж"> <label for="r10"><span
+                                        class="v-align">QuickLock</span></label>
+                                <div class="Del-Calc-05-price" id="Price33"></div>
+                                <p>Комплект креплений для блокировки с замком</p>
+                                <div class="Del-Calc-05-img" id="DelRol-k3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Del-Calc-05-in"></section>
+            <section class="Del-Calc-06">
+                <div class="Del-Calc-in-2">
+                    <div class="Del-Calc-06-all">
+                        <div class="Del-Calc-subtitle"> <span>6<em>/6</em></span>
+                            <p>
+                                <font class="v-align">Выберите <b>дополнительное оборудование</b></font>
+                            </p>
+                        </div>
+                        <div class="Del-Calc-content">
+                            <div class="Del-Calc-06-block"> <input id="cb1" name="cb1" type="checkbox" value="189">
+                                <label for="cb1"><span class="v-align">"Stop salt"</span></label>
+                                <div class="Del-Calc-06-price">189€</div>
+                                <p>Только для электрической версии. <br>
+                                    Устройство подает сигнал на хлоратор, <br> что позволяет автоматически
+                                    отрегулировать производительность хлора.
+                                </p>
+                            </div>
+                            <div class="Del-Calc-06-block"> <input id="cb2" name="cb1" type="checkbox" value="0">
+                                <label for="cb2"><span class="v-align">Настенный монтаж</span></label>
+                                <div class="Del-Calc-03-price-mini">входит в стоимость стандартный комплектации</div>
+                                <p>Крепление вала к стене без стойки</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Del-Calc-06-in"></section>
+            <section class="Del-Calc-FIN">
+                <div class="Del-Calc-line-3"></div>
+                <div class="Del-Calc-in">
+                    <div class="Del-Calc-FIN-left">
+                        <div class="v-align">
+                            <div class="Del-Calc-FIN-left-in">
+                                <div class="Del-Calc-FIN-block-title">
+                                    <h3><b>Ориентировочная <br>стоимость ролеты</b></h3>
+                                    <p>Окончательную стоимость ролеты Вам предоставит <br>менеджер компании, после
+                                        подробной консультации по телефону.</p>
+                                </div>
+                                <div class="Del-Calc-FIN-block-all">
+                                    <div class="Del-Calc-FIN-1">
+                                        <div class="Del-Calc-FIN-price"> <input class="cost" type="text"
+                                                disabled="disabled" name="Price" value="">
+                                            <font>€</font>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Del-Calc-line-4"></div>
+            </section>
+            <section class="Del-Calc-FIN-in"></section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

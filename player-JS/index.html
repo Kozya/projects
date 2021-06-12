@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>PLAYER</title>
+
+    <script defer src="data/data.js"></script>
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="player">
+            <div class="player__information info">
+                <div class="info__poster">
+                    <img id="poster" class="img" src="img/posters/default.jpg" alt="">
+                </div>
+                <h2 id="title" class="info__title">_____ - _______</h2>
+                <span id="time" class="info__time">00:00</span>
+            </div>
+            <div class="player__controls">
+                <button id="prev-control" class="control-item control-item--previous"></button>
+                <button id="play-control" class="control-item control-item--play"></button>
+                <button id="pause-control" class="control-item control-item--pause"></button>
+                <button id="stop-control" class="control-item control-item--stop"></button>
+                <button id="next-control" class="control-item control-item--next"></button>
+            </div>
+
+            <ul id="playlist" class="playlist">
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
